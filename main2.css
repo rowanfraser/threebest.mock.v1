@@ -1,0 +1,61 @@
+
+body{
+    font: 1em/1.25 "Avenir", sans-serif;
+}
+
+
+header{
+    height: 70px;
+    padding: 0;
+    background-color: antiquewhite;
+    border: 1px solid blue;
+}
+
+
+h1{
+    color:blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    font-size: 40px;
+    border: 1px solid red;
+    float: left;
+    display: inline-flex;
+}
+
+
+nav{
+    color:blue;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    list-style-type: none; 
+    padding: 15px;
+    border: 1px solid red;
+    margin: 0;
+    float: right;
+    display: inline-flex;
+}
+
+nav li{
+    display: inline;
+    padding: 12px;
+    text-align: right;
+}
+
+input[type=search]{
+    color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid green;
+    text-transform: uppercase;
+}
+
+section[id=gradient-1]{
+    margin-top: 40px;
+    height: 15px;
+    background: linear-gradient(90deg, blue, #66FF00)
+}

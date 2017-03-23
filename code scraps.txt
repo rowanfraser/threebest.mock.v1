@@ -14,3 +14,18 @@
 
 
 -
+
+HEADER THAT WORKS _ EXCEPT FOR SEARCH INPUT
+        <header>
+            
+            <h1>ThreeBest</h1>
+            
+            <nav>
+                <ul>
+                    <li>Suggest a ThreeBest</li><li>Join</li>
+                </ul>
+            </nav>
+            
+            <input type="search" value="Search">
+            
+        </header>
