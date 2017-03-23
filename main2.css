@@ -16,7 +16,8 @@ header{
 h1{
     color:blue;
     padding: 0;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right:10px;
     margin: 0;
     font-size: 35px;
     text-align: center;
@@ -31,7 +32,7 @@ h1{
 input[type=search]{
     color: rgba(0, 0, 255, 0.6);
     font-size: 15px;
-    padding: 35px 15px 5px 15px;
+    padding: 35px 0 5px 0px;
     margin: 0;
     border: none;
     border-bottom: 2px dotted #66FF00;
