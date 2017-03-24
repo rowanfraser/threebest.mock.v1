@@ -2,7 +2,7 @@ body{
     font-family: "Avenir", sans-serif;
     font-size: regular;
     margin: 0;
-    padding; 0;
+    padding: 0;
     line-height: 0;
 }
 
@@ -16,8 +16,8 @@ header{
 h1{
     color:blue;
     padding: 0;
-    padding-left: 20px;
-    padding-right:10px;
+    padding-left: 0;
+    padding-right: 10px;
     margin: 0;
     font-size: 35px;
     text-align: center;
@@ -30,20 +30,22 @@ h1{
     overflow:auto;
 }
 
-input[type=search]{
-    color: rgba(150, 150, 150, 0.6);
+sup{
+    color: grey;
+    opacity: 1;
+    font-size: 15px;
+    padding-left: 15px;
+    vertical-align: baseline; 
+}
+
+/* potential border add and box structure for the search input 
     font-size: 15px;
     padding: 0;
     margin: 25px 5px 0 5px;
     border: none;
     border-bottom: 2px dotted #66FF00;
-    text-transform: uppercase;
-    text-align: center;
-    float: left;
-    width: 30%;
-    display: inline-block;
-    overflow:auto;
-}
+*/
+
 
 nav{
     color:blue;
@@ -72,6 +74,70 @@ nav li{
 
 section[id=gradient-1]{
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 8px;
     background: linear-gradient(90deg, blue, #66FF00)
+}
+
+
+input[type=search]{
+    color: rgba(150, 150, 150, 0.6);
+    font-size: 15px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-bottom: 2.5px dotted;
+    margin: 0 auto 30px auto;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+section[class=cities]{
+    background-color: none;
+    height: 35px;
+}
+
+.cities ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: blue;
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.cities ul li{
+    padding: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+section[class=categories]{
+    background-color: none;
+    padding-left: 0;
+    margin-top: 0;
+    height: 35px;
+    text-align: center;
+}
+
+.categories ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: blue; 
+    display: inline-block;
+}
+
+.categories ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    display: inline;
+    border: 2px solid;
+    border-radius: 10px;
 }
