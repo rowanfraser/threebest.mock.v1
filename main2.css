@@ -27,13 +27,14 @@ h1{
     display: inline;
     width: 30%;
     line-height: 2.75em;
+    overflow:auto;
 }
 
 input[type=search]{
-    color: rgba(0, 0, 255, 0.6);
+    color: rgba(150, 150, 150, 0.6);
     font-size: 15px;
-    padding: 35px 0 5px 0px;
-    margin: 0;
+    padding: 0;
+    margin: 25px 5px 0 5px;
     border: none;
     border-bottom: 2px dotted #66FF00;
     text-transform: uppercase;
@@ -41,7 +42,7 @@ input[type=search]{
     float: left;
     width: 30%;
     display: inline-block;
-    
+    overflow:auto;
 }
 
 nav{
@@ -59,6 +60,7 @@ nav{
     float: right;
     width: 30%;
     display: inline-flex;
+    overflow:auto;
 }
 
 nav li{
@@ -69,7 +71,7 @@ nav li{
 
 
 section[id=gradient-1]{
-    margin-top: 12px;
+    margin-top: 20px;
     height: 8px;
     background: linear-gradient(90deg, blue, #66FF00)
 }
