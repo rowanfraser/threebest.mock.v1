@@ -9,6 +9,7 @@ body{
 header{
     height: 60px;
     padding: 0;
+    margin: 0;
     background-color: white;
     border: none;
 }
@@ -54,7 +55,7 @@ nav{
     font-weight: bold;
     list-style-type: none; 
     height: 70px;
-    padding: 0px;
+    padding: 0;
     border: none;
     margin: 0;
     text-align: center;
@@ -72,9 +73,8 @@ nav li{
 }
 
 
-section[id=gradient-1]{
-    margin-top: 20px;
-    margin-bottom: 20px;
+#gradient-1{
+    margin: 20px 0 20px 0;
     height: 8px;
     background: linear-gradient(90deg, blue, #66FF00)
 }
@@ -103,7 +103,9 @@ section[class=cities]{
     color: blue;
     display: block;
     padding: 0;
+    margin: 20px 0 20px 0;
     text-align: center;
+    
 }
 
 .cities ul li{
@@ -117,7 +119,7 @@ section[class=cities]{
 section[class=categories]{
     background-color: none;
     padding-left: 0;
-    margin-top: 0;
+    margin-top: 20px;
     height: 35px;
     text-align: center;
 }
@@ -125,8 +127,13 @@ section[class=categories]{
 .categories ul {
     list-style-type: none;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
     color: blue; 
-    display: inline-block;
+    width: 1000px;
+    display: inline;
+    overflow: auto;
+    
 }
 
 .categories ul li{
@@ -140,4 +147,50 @@ section[class=categories]{
     display: inline;
     border: 2px solid;
     border-radius: 10px;
+}
+
+#demo-home{
+    width: 1000px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#gradient-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    background: linear-gradient(90deg, blue, #66FF00)
+}
+
+#gradient-2 p{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+
+footer{
+    font-size: 12px;  
+    color: gray;
+    line-height: 16px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+
+footer p{
+    display: inline;
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+}
+
+footer ul{
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin-left: 30px;
 }
